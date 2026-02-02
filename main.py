@@ -111,7 +111,7 @@ with st.sidebar:
         "No. of Inverters", 
         value=4, 
         min_value=1, 
-        max_value=1000
+        max_value=10000
     )
     inv_rating = st.number_input(
         "AC Rating per Inv (kW)", 
